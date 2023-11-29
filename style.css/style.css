@@ -1,0 +1,328 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.contenier {
+  width: 100%;
+  height: 100vh;
+}
+.contenier .navbar {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+.contenier .navbar ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.contenier .navbar ul li a {
+  color: #f5f5f7;
+
+  /* font-family: SF Pro; */
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px; /* 366.667% */
+}
+.unisef {
+  width: 100%;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #f5f5f7;
+}
+.unisef p {
+  color: #06c;
+  /* font-family: SF Pro; */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px; /* 314.286% */
+  letter-spacing: -0.14px;
+  
+}
+.contenier .iphone13 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0 25px 0;
+  background-color: #fafafd;
+  gap: 15px;
+}
+.contenier .iphone13 h1 {
+  color: #1d1d1f;
+
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px; /* 78.571% */
+}
+.contenier .iphone13 img {
+  width: 100%;
+  /* margin-top: 70px; */
+}
+
+.learn a {
+  color: #06c;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 510;
+  line-height: 44px; /* 209.524% */
+  letter-spacing: -0.21px;
+
+}
+
+.iphone13 p {
+  color: #000;
+
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px; /* 157.143% */
+  letter-spacing: 0.98px;
+}
+
+/* SE */
+.contenier .new {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.contenier .new .SE {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.contenier .new .SE h1 {
+  color: #161618;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 590;
+  line-height: 44px; /* 78.571% */
+}
+.contenier .new .SE .item {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #000;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenier .new img {
+  width: 100%;
+}
+.contenier .new .love p {
+  color: #000;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px; /* 157.143% */
+  letter-spacing: 0.56px;
+}
+.new .buy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.new .buy a {
+  color: #06c;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 510;
+  line-height: 44px; /* 209.524% */
+  letter-spacing: -0.21px;
+
+}
+/* SE end */
+
+/*IPAD */
+.contenier .Ipad {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  padding: 230px 350px 200px 150px;
+}
+.contenier .Ipad .text {
+  display: flex;
+  gap: 20px;
+}
+.contenier .Ipad .text h1 {
+  color: #fff;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 590;
+  line-height: 44px; /* 78.571% */
+}
+.contenier .Ipad .text h2 {
+  font-size: 40px;
+
+  width: 106px;
+  height: 49px;
+  flex-shrink: 0;
+  color: darkmagenta;
+}
+.contenier .Ipad .textlong {
+  padding: 15px;
+}
+.contenier .Ipad .textlong p {
+  color: #fff;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px; /* 157.143% */
+  letter-spacing: 0.28px;
+}
+.Ipad .textlong a {
+  color: #2997ff;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px; /* 209.524% */
+  letter-spacing: -0.525px;
+  gap:40px;
+}
+
+/* Ipad end */
+
+
+.contenier .display {
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-direction: column; */
+  padding: 150px 300px 150px 300px;
+  /* border: 2px solid #000; */
+  
+}
+
+.contenier .display .text{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px soldi #000;
+}
+
+
+.contenier .display h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 590;
+  line-height: 44px; /* 110% */
+  letter-spacing: 0.8px;
+}
+.contenier .display p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px; /* 209.524% */
+  letter-spacing: 0.105px;
+}
+.contenier .display .buy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.contenier .display .buy a {
+  color: #06c;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px; /* 258.824% */
+  letter-spacing: 0.17px;
+  
+}
+
+.contenier .display .Mac {
+width: 40%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border: 1px soldi #000;
+}
+.contenier .display .Mac .text{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ /* border: 5px solid #000; */
+ padding-bottom:60px; ;
+}
+.contenier .display .Mac .text h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 590;
+  line-height: 44px; /* 110% */
+  letter-spacing: 0.8px;
+}
+.contenier .display .Mac .text p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px; /* 209.524% */
+  letter-spacing: 0.105px;
+}
+.contenier .display .Mac .text .buy{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.contenier .display .box{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  border: 2px solid transparent;
+}
